@@ -41,7 +41,7 @@ nav {
 }
 
 .wrapper {
-/*   margin: 0 auto; /* auto will center the content after applying the width*/ */
+/*   margin: 0 auto; */ /* auto will center the content after applying the width */
   width: 1200px;
 }
 
@@ -87,6 +87,6 @@ footer {
 }
 
 .hobby{
-  style:dislay:block;
+  display: block;
   margin: auto 0;
 }
