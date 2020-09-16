@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+/* Global styles */
+html, body {
+  height: 100%;
+  background-color: black;
+}
+
+body { 
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #B9B9B9 ;
+}
+
+p {
+  margin: 32px 0;
+  line-height: 1.5;
+}
+
+/* Classes to support overall layout */
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+
+
+/* Header styles */
+header nav {
+  padding: 16px 0;
+  
+  font-weight: 400;
+}
+
+header nav a {
+  margin-right: 16px;
+  
+  color: #989898;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #FFFFFF;
+}
+
+header nav a.nav-link-active {
+  color: #B9B9B9;
+}
+
+header nav a:last-of-type {
+  margin-right: 0;
+}
+
+
+/* Footer styles */
+footer {
+  flex-shrink: 0;
+  
+  margin-top: 64px;
+  padding: 32px 0 64px 0;
+  
+  background: #333333;
+  color: #FFFFFF;
+  
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Top level title */
+.page-title {
+  margin-bottom: 32px;
+  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+/* Team members styles */
+.list-team {
+  display: flex;
+  list-style: none; 
+  
+  padding: 0;
+}
+
+.list-team-member {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.list-team-member strong {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;  
+}
+
+.list-team-member img {
+  margin-bottom: 16px;
+}
+
+
+/* Personal profile styles */
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 100%;  
+}
+
+.profile {
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.profile img {
+  margin-right: 32px;
+}
+
+.profile p {
+  margin: 8px 0;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-links {
+  padding: 0;
+  list-style: none;
+}
+
+.profile-links li {
+  display: inline-block;
+}
+
+
+
+
+/* Font awesome beautify */
+.fa {
+  width: 20px;
+  margin-right: 4px;
+  padding: 16px;
+  border-radius: 100%;
+  
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background:E1306C;
+  color: white;
+}
+
+.fa-twitter {
+  background: #E1306C;
+  color: white;
+}
+
+
+
+header nav a:hover { /* the hover selector is used to select moused over elements */
+  color: #B9B9B9;
+}
+
+header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
+  color: #B9B9B9;
+}
+
+
+

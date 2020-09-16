@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+header nav {
+padding: 16px 0px; /* top and bottom are 16, left and right are 0 */
+}
+
+header nav a { /* this is for a lements in nav in header */
+  margin-right: 20px; /* all margins are 16px */
+  color: #989898;
+  text-decoration: none; /* often used to remove underlines from links */
+}
+
+header nav a:hover { /* the hover selector is used to select moused over elements */
+  color: #4169E1;
+}
+
+header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
+  color: #000000;
+}
+
+.content {
+  flex: 1 0 auto; /* make content growable *not* shrinkable, auto initial length*/
+}
+
+.wrapper {
+  margin: 0 auto; /* auto will center the content after applying the width*/
+  width: 1200px;
+}
+
+.page-title {
+  margin-bottom: 4px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  font-weight: 88;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.flex-container div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.self-info img{
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.self-info {
+  list-style: none;
+}
+
+.self-info li p {
+  margin: 8px 0px;
+}
+
+.self-info li ol {
+  margin: 8px -10px;
+}
+
+.self-info li b {
+  margin-right: 5px;
+  text-align: right;
+}
+
+.self-info-entry {
+  display: flex;
+}
+
+header nav a:hover { /* the hover selector is used to select moused over elements */
+  color: #B9B9B9;
+}
+
+header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
+  color: #B9B9B9;
+}

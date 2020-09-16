@@ -1,0 +1,77 @@
+body {  
+  font-family: 'Comic Sans', sans-serif; /* try roboto, otherwise try this generic family */
+  font-weight: 400;
+	color: #B9B9B9 ;
+	background-color: black;
+}
+
+p {
+	
+	text-align: center;
+	
+
+}
+
+header nav {
+padding: 16px 0px; /* top and bottom are 16, left and right are 0 */
+}
+
+
+header nav a { /* this is for a lements in nav in header */
+  margin-right: 16px; /* all margins are 16px */
+  color: #D8DF43 ;
+  text-decoration: none; /* often used to remove underlines from links */
+}
+
+header nav a:hover { /* the hover selector is used to select moused over elements */
+  color: #D8DF43 ;
+}
+
+header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
+  color: #D8DF43 ;
+}
+
+header nav a:last-of-type { /* select the last 'a' element of the parent, nav*/
+  margin-right: 0; /* we're going to set the margin to the right to 0 */
+}
+
+.content {
+  flex: 1 0 auto; /* make content growable *not* shrinkable, auto initial length*/
+}
+
+.wrapper {
+  margin: 0 auto; /* auto will center the content after applying the width*/
+  width: 1200px;
+}
+
+
+footer {
+  flex-shrink: 0;
+  
+  margin-top: 64px;
+  padding: 32px 0 64px 0;
+  
+  background: #7D7D7D;
+  color: #D8DF43;
+  
+  font-size: 12px;
+  text-align: center;
+}
+
+ol {
+	text-align:center;
+}
+li p {
+	text-align:center;
+  margin: 8px 0px;
+}
+
+li a {
+	text-align:center;
+  margin: 8px 0px;
+}
+
+li ol {
+	text-align:center;
+  margin: 8px 0px;
+}
