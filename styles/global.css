@@ -197,5 +197,57 @@ header nav a.nav-link-active { /* the active link, we have set this manually for
   color: #B9B9B9;
 }
 
+/* Education institutions and workplaces list styles */
+.about-nav {
+  display: flex;
+}
 
+.about-nav-link {
+  margin-right: 16px;
+  color: #666;
+  text-decoration: none;
+}
+
+.about-nav-link-active {
+  color: #000;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.list-education, .list-work {
+  padding: 0;
+  list-style: none;
+}
+
+.list-education li, .list-work li {
+  margin-bottom: 48px;
+}
+
+
+.education, .work {
+  display: flex;
+}
+
+.education-logo, .work-logo {
+  margin-right: 32px;
+  
+  height: 100px;
+  width: 100px;
+  
+  object-fit: contain; /* I don't think IE supports this :) */
+}
+
+.education-details, .work-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-details p, .work-details p {
+  margin: 8px 0;
+}
+
+#workSection, #workList {
+  display: none;
+}
 
