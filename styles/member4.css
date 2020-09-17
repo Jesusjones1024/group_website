@@ -1,31 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
 
-body {  
-  font-family: 'Roboto', sans-serif; /* try roboto, otherwise try this generic family */
+body {
+  font-family: "Roboto", sans-serif; /* try roboto, otherwise try this generic family */
   font-weight: 400;
 }
 
 header nav {
-padding: 16px 0px; /* top and bottom are 16, left and right are 0 */
+  padding: 16px 0px; /* top and bottom are 16, left and right are 0 */
 }
 
-
-header nav a { /* this is for a lements in nav in header */
+header nav a {
+  /* this is for a lements in nav in header */
   margin-right: 16px; /* all margins are 16px */
   color: #989898;
   text-decoration: none; /* often used to remove underlines from links */
 }
 
-header nav a:hover { /* the hover selector is used to select moused over elements */
+header nav a:hover {
+  /* the hover selector is used to select moused over elements */
   color: #000000;
 }
 
-header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
+header nav a.nav-link-active {
+  /* the active link, we have set this manually for now in the html*/
   color: #000000;
 }
 
-header nav a:last-of-type { /* select the last 'a' element of the parent, nav*/
+header nav a:last-of-type {
+  /* select the last 'a' element of the parent, nav*/
   margin-right: 0; /* we're going to set the margin to the right to 0 */
 }
 
@@ -40,12 +43,13 @@ header nav a:last-of-type { /* select the last 'a' element of the parent, nav*/
 
 .page-title {
   margin-bottom: 64px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 .my-info {
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .my-info li p {
@@ -71,24 +75,25 @@ header nav a:last-of-type { /* select the last 'a' element of the parent, nav*/
 
 footer {
   flex-shrink: 0;
-  
+
   margin-top: 64px;
   padding: 32px 0 64px 0;
-  
+
   background: #333333;
-  color: #FFFFFF;
-  
+  color: #ffffff;
+
   font-size: 12px;
   text-align: center;
 }
 
-
-header nav a:hover { /* the hover selector is used to select moused over elements */
-  color: #B9B9B9;
+header nav a:hover {
+  /* the hover selector is used to select moused over elements */
+  color: #b9b9b9;
 }
 
-header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
-  color: #B9B9B9;
+header nav a.nav-link-active {
+  /* the active link, we have set this manually for now in the html*/
+  color: #b9b9b9;
 }
 
 button {
@@ -100,7 +105,6 @@ button {
   outline: none;
   padding: 0.5rem 1.8rem;
   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
-  margin-top: 1rem;
 }
 
 button:hover {
@@ -113,19 +117,35 @@ button:active {
 }
 
 .yeet {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
   background: rgb(89, 89, 89);
 }
 
+.yeet button {
+  margin: 0 20px;
+}
+
 .image-text {
+  margin-top: 10px;
   display: flex;
   flex-wrap: nowrap;
 }
 
 .image-text img {
+  margin-left: 20px;
   max-width: 300px;
   flex-shrink: 2;
 }
 
 .image-text div {
+  margin-left: 20px;
   max-width: 900px;
+}
+
+.about-nav-link-active {
+  color: #fff;
+  text-decoration: underline;
+  cursor: default;
 }

@@ -1,44 +1,41 @@
-body {  
-  font-family: 'Comic Sans', sans-serif; /* try roboto, otherwise try this generic family */
+body {
+  font-family: "Comic Sans", sans-serif; /* try roboto, otherwise try this generic family */
   font-weight: 400;
-	color: #B9B9B9 ;
-	background-color: black;
+  color: #b9b9b9;
+  background-color: black;
 }
 
 p {
-	
-	text-align: center;
-	
-
+  text-align: center;
 }
 
 a:link {
-  color: #03DAC5; /* Colors from https://material.io/design/color/dark-theme.html#ui-application */
+  color: #03dac5; /* Colors from https://material.io/design/color/dark-theme.html#ui-application */
 }
 
 a:visited {
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 /* Header styles */
 header nav {
   padding: 16px 0;
-  
+
   font-weight: 400;
 }
 
 header nav a {
   margin-right: 16px;
-  
+
   text-decoration: none;
 }
 
 header nav a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 header nav a.nav-link-active {
-  color: #B9B9B9;
+  color: #b9b9b9;
 }
 
 header nav a:last-of-type {
@@ -54,41 +51,100 @@ header nav a:last-of-type {
   width: 1200px;
 }
 
-
 footer {
   flex-shrink: 0;
-  
+
   margin-top: 64px;
   padding: 32px 0 64px 0;
-  
-  background: #7D7D7D;
-  color: #D8DF43;
-  
+
+  background: #7d7d7d;
+  color: #d8df43;
+
   font-size: 12px;
   text-align: center;
 }
 
 ol {
-	text-align:center;
+  text-align: center;
 }
 li p {
-	text-align:center;
+  text-align: center;
   margin: 8px 0px;
 }
 
 li a {
-	text-align:center;
+  text-align: center;
   margin: 8px 0px;
 }
 
 ol {
-	text-align:center;
+  text-align: center;
   margin: 8px 0px;
-	border-style: inset;
-	border-color: #141414;
-	border-left-width: 2px;
-	border-right-width: 2px;
-	border-width: 150px;
-	background-color:black;
-	color: #DEDEDE;
+  border-style: inset;
+  border-color: #141414;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-width: 150px;
+  background-color: black;
+  color: #dedede;
+}
+
+/* Education institutions and workplaces list styles */
+.about-nav {
+  display: flex;
+}
+
+.about-nav-link {
+  margin-right: 16px;
+  color: #666;
+  text-decoration: none;
+}
+
+.about-nav-link-active {
+  color: #000;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.list-education,
+.list-work {
+  padding: 0;
+  list-style: none;
+}
+
+.list-education li,
+.list-work li {
+  margin-bottom: 48px;
+}
+
+.education,
+.work {
+  display: flex;
+}
+
+.education-logo,
+.work-logo {
+  margin-right: 32px;
+
+  height: 100px;
+  width: 100px;
+
+  object-fit: contain; /* I don't think IE supports this :) */
+}
+
+.education-details,
+.work-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-details p,
+.work-details p {
+  margin: 8px 0;
+}
+
+#workSection,
+#workList {
+  display: none;
 }
