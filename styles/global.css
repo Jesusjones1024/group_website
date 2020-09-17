@@ -30,11 +30,11 @@ p {
   flex: 1 0 auto;
 }
 
-.list-team a:link {
+a:link {
   color: #03DAC5; /* Colors from https://material.io/design/color/dark-theme.html#ui-application */
 }
 
-.list-team a:visited {
+a:visited {
   color: #BB86FC;
 }
 
