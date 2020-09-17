@@ -12,27 +12,30 @@ p {
 
 }
 
+/* Header styles */
 header nav {
-padding: 16px 0px; /* top and bottom are 16, left and right are 0 */
+  padding: 16px 0;
+  
+  font-weight: 400;
 }
 
-
-header nav a { /* this is for a lements in nav in header */
-  margin-right: 16px; /* all margins are 16px */
-  color: #D8DF43 ;
-  text-decoration: none; /* often used to remove underlines from links */
+header nav a {
+  margin-right: 16px;
+  
+  color: #989898;
+  text-decoration: none;
 }
 
-header nav a:hover { /* the hover selector is used to select moused over elements */
-  color: #D8DF43 ;
+header nav a:hover {
+  color: #FFFFFF;
 }
 
-header nav a.nav-link-active { /* the active link, we have set this manually for now in the html*/
-  color: #D8DF43 ;
+header nav a.nav-link-active {
+  color: #B9B9B9;
 }
 
-header nav a:last-of-type { /* select the last 'a' element of the parent, nav*/
-  margin-right: 0; /* we're going to set the margin to the right to 0 */
+header nav a:last-of-type {
+  margin-right: 0;
 }
 
 .content {
