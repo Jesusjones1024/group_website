@@ -111,3 +111,21 @@ button:active {
   transform: translate(0, 0.3rem);
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
+
+.yeet {
+  background: rgb(89, 89, 89);
+}
+
+.image-text {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.image-text img {
+  max-width: 300px;
+  flex-shrink: 2;
+}
+
+.image-text div {
+  max-width: 900px;
+}
