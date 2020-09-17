@@ -17,14 +17,7 @@ header nav a.nav-link-active { /* the active link, we have set this manually for
   color: #000000;
 }
 
-.content {
-  flex: 1 0 auto; /* make content growable *not* shrinkable, auto initial length*/
-}
 
-.wrapper {
-  margin: 0 auto; /* auto will center the content after applying the width*/
-  width: 1200px;
-}
 
 .page-title {
   margin-bottom: 4px;
