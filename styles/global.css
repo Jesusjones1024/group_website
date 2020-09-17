@@ -8,9 +8,6 @@ html, body {
 }
 
 body { 
-  display: flex;
-  flex-direction: column;
-  margin: 0;
   
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -174,6 +171,16 @@ footer {
 
 .fa-twitter {
   background: #E1306C;
+  color: white;
+}
+
+.fa-youtube {
+  background: #ca0446;
+  color: white;
+}
+
+.fa-facebook {
+  background: #007bb5;
   color: white;
 }
 
