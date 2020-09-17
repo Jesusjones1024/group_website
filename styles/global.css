@@ -177,6 +177,16 @@ footer {
   color: white;
 }
 
+.fa-youtube {
+  background: #ca0446;
+  color: white;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+
 
 
 header nav a:hover { /* the hover selector is used to select moused over elements */
