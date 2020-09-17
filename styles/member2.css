@@ -12,6 +12,14 @@ p {
 
 }
 
+a:link {
+  color: #03DAC5; /* Colors from https://material.io/design/color/dark-theme.html#ui-application */
+}
+
+a:visited {
+  color: #BB86FC;
+}
+
 /* Header styles */
 header nav {
   padding: 16px 0;
@@ -22,7 +30,6 @@ header nav {
 header nav a {
   margin-right: 16px;
   
-  color: #989898;
   text-decoration: none;
 }
 
