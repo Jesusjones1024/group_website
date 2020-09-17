@@ -202,6 +202,10 @@ header nav a.nav-link-active { /* the active link, we have set this manually for
   display: flex;
 }
 
+.flex-nav {
+  margin-right: 10px;
+}
+
 .about-nav-link {
   margin-right: 16px;
   color: #666;
@@ -214,21 +218,21 @@ header nav a.nav-link-active { /* the active link, we have set this manually for
   cursor: default;
 }
 
-.list-education, .list-work {
+.list-education, .list-work .list-gif {
   padding: 0;
   list-style: none;
 }
 
-.list-education li, .list-work li {
+
+.list-education li, .list-work li, .list-gif li {
   margin-bottom: 48px;
 }
 
-
-.education, .work {
+.education, .work, .gif {
   display: flex;
 }
 
-.education-logo, .work-logo {
+.education-logo, .work-logo, .gif-logo {
   margin-right: 32px;
   
   height: 100px;
@@ -237,17 +241,17 @@ header nav a.nav-link-active { /* the active link, we have set this manually for
   object-fit: contain; /* I don't think IE supports this :) */
 }
 
-.education-details, .work-details {
+.education-details, .work-details, gif-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.education-details p, .work-details p {
+.education-details p, .work-details p, .gif-details p {
   margin: 8px 0;
 }
 
-#workSection, #workList {
+#workSection, #workList, #gifList, #gifSection {
   display: none;
 }
 
