@@ -71,7 +71,14 @@ li a {
   margin: 8px 0px;
 }
 
-li ol {
+ol {
 	text-align:center;
   margin: 8px 0px;
+	border-style: inset;
+	border-color: #141414;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-width: 150px;
+	background-color:black;
+	color: #DEDEDE;
 }
