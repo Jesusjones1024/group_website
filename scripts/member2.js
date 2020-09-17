@@ -1,8 +1,5 @@
 const educationNav = document.getElementById('showEducation')
-const workNav = document.getElementById('showWork')
-
 const educationList = document.getElementById('educationList')
-const workList = document.getElementById('workList')
 
 educationNav.onclick = function(event){
     event.preventDefault()
