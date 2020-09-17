@@ -118,7 +118,8 @@ button:active {
 
 .yeet {
   margin-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 20px;
+  max-width: 600px;
   border-radius: 10px;
   background: rgb(89, 89, 89);
 }
@@ -134,13 +135,11 @@ button:active {
 }
 
 .image-text img {
-  margin-left: 20px;
   max-width: 300px;
   flex-shrink: 2;
 }
 
 .image-text div {
-  margin-left: 20px;
   max-width: 900px;
 }
 
